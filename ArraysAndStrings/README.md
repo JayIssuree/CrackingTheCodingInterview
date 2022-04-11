@@ -3,7 +3,7 @@
 STRINGS == ARRAYS
 => A string is just an array of characters
 
-# String Concatenation
+### String Concatenation
 
 In Java, STRINGS are IMMUTABLE (basically the equivalent of static arrays)
 => When concatenating a string together a new copy of the string is created and two strings are copied over, character by character
