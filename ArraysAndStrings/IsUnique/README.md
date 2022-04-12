@@ -19,6 +19,8 @@
     - Break out of the loop once the condition is met
     - This uses no additional data structures
 => O(n^2)
+- Sorting => rearange the string and sort alphabetically
+    - Compare the characters of the indecies next to each other
 
 ### Solution:
 - Iterate though the string once and map each letter to a hash table of frequencies
@@ -27,7 +29,7 @@
         create a key value pair where the key is the letter and the count is 1
     else if the letter already exists in the hash table (and the count is 1)
         the string is not unique => break out and return false
-- You only have to go through the string one
+- You only have to go through the string once
 => O(n)
 - You do have to create a new data structure
 => O(n)
