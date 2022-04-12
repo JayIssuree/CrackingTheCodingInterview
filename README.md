@@ -60,7 +60,9 @@ Print all permutatoins of a string:
 "ABC"
 ```
 Base Case - "A" => ["A"]
+
 Next Case - "AB" => ["AB", "BA"]
+
 Next Case - "ABC" => ["CAB", "ACB", "ABC", "CBA", "BCA", "BAC"]
 
 Insert the new letter into all location of all words in the previous case:
