@@ -14,6 +14,7 @@
 - How to handle integers, symbols?
 
 ### Initial Thoughts / Brute Force Approach:
+- Generate all permutations of the string, and check if one is a palindrome => O(n!)
 - A palindrome of an even amount of letters would have an even count of each letter
 - A palindrome of an odd amount of letters can have 1 letter with an odd count
 
