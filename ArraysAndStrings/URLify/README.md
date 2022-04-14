@@ -1,5 +1,5 @@
 ## URLify
-### Write a method to replace all spaces ina string with '%20'
+### Write a method to replace all spaces in a string with '%20'
 - You may assume that the string has sufficient space at the end to hold the additional characters
 - You are given the 'true' length of the string
 - If implementing in Java, use a character array so that you can perform the operation in place
@@ -13,7 +13,7 @@
 - Can we use additional space?
 - Do we want to change the original input array?
 
-### Brute Force:
+### Initial Thoughts / Brute Force Approach:
 - Iterate through the string and when the value is blank, substitute in %20
 => O(n)
 

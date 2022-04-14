@@ -13,7 +13,7 @@
 - What about spaces?
 - Do we want to return a boolean? => Yes
 
-### Brute Force:
+### Initial Thoughts / Brute Force Approach:
 - Sort both strings and compare values, they should be identical
 => O(n log n)
 

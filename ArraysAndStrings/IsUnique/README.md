@@ -14,7 +14,7 @@
 - Do we want to return a boolean? => Yes
 - Do we want to return which specific characters are unique? => No
 
-### Brute Force:
+### Initial Thoughts / Brute Force Approach:
 - Nested loop => iterate over the string and compare each letter to every letter after it
     - Break out of the loop once the condition is met
     - This uses no additional data structures
