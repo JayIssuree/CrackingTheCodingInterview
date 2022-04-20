@@ -1,8 +1,4 @@
-import java.util.function.BiConsumer;
-
-import javax.print.event.PrintEvent;
-
-public class Main {
+class Main {
     
     public static void main(String[] args){
         String A = "palel";

@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-class Main{
+class Main {
 
     public static void main(String[] args){
         System.out.println(checkPermutation("ABCDEFGHIJ", "HGBFIAJEDC"));
